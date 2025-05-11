@@ -12,3 +12,16 @@
   --heart-contour: #000; /* Цвет контура */
   --heart-fill: #ff0000; /* Цвет заливки */
 }
+@media (width <= 375px) {
+  .header,
+  .content {
+    inline-size: 100%;
+  }
+  .save__button {
+    flex-direction: column;
+  }
+  .save__svg {
+    width: 28px;
+    height: 28px;
+  }
+}

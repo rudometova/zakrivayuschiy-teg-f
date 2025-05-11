@@ -157,6 +157,11 @@
 .card__icon-button {
   display: flex;
   align-items: center;
+  border: 2px solid transparent;
+}
+.card__icon-button:focus-visible {
+  border: 2px solid var(--text-color);
+  transition: border-color 0.3s ease;
 }
 .button__text {
   position: relative;
@@ -229,26 +234,7 @@
 .dialog__button {
   grid-column: 1 / span 2;
 }
-@media (width <= 375px) {
-  .header,
-  .content {
-    inline-size: 100%;
-  }
-  .save__button {
-    flex-direction: column;
-  }
-  .save__svg {
-    width: 28px;
-    height: 28px;
-  }
-}
-.card__icon-button {
-  border: 2px solid transparent;
-}
-.card__icon-button:focus-visible {
-  border: 2px solid var(--text-color);
-  transition: border-color 0.3s ease;
-}
+
 .sparks {
   opacity: 0;
 }
