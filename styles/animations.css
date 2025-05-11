@@ -44,24 +44,22 @@
   opacity: 0;
 }
 .core {
-  fill: none;
+  fill: transparent;
   transition: fill 0.3s ease;
   transition-delay: 0.03s; /* Задержка при уходе */
 }
-.like-icon:hover .core {
-  fill: var(--heart-contour);
+.main-body {
+  fill: transparent;
   transition: fill 0.3s ease;
   transition-delay: 0s;
 }
-.main-body {
-  fill: none;
-  transition: fill 0.3s ease;
-  transition-delay: 0s;
+.like-icon:hover .core {
+    fill: var(--heart-contour);
+    transition: fill 0.3s ease;
 }
 .like-icon:hover .main-body {
-  fill: var(--heart-contour);
-  transition: fill 0.3s ease;
-  transition-delay: 0.05s;
+    fill: var(--heart-contour);
+    transition: fill 0.3s 0.05s ease;
 }
 .contour {
   transition: fill 0.1s ease;
