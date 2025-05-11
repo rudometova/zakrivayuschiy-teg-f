@@ -1,1 +1,14 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font: "Inter", sans-serif;
+  --accent-font: "Press Start 2P", fantasy;
+  --text-weight: 400;
+  --title-weight: 785;
+  --text-color: #000;
+  --header-width: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
+  --section-width: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
+  --label-stroke: #fff;
+  --button-text: #000;
+  --heart-contour: #000; /* Цвет контура */
+  --heart-fill: #ff0000; /* Цвет заливки */
+}
