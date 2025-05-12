@@ -245,4 +245,8 @@
     width: 28px;
     height: 28px;
   }
+  .dialog {
+    padding: 30px 40px;
+    max-inline-size: 341px;
+  }
 }
